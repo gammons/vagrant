@@ -1,5 +1,19 @@
 # Vagrant
 
+## This version of vagrant fixes the issue when running 'vagrant up' for the first time.
+
+    The local file Vagrant uses to store data ".vagrant" already exists
+    and is a directory! If you are in your home directory, then please run
+    this command in another directory. If you aren't in a home directory,
+    then please rename ".vagrant" to something else, or configure Vagrant
+
+I will attempt to keep this branch as updated as possible with the vagrant source.
+
+I implore the vagrant developers to either merge in my fix, or fix the issue on their own, as currently any new installations of vagrant are completely broken, which I believe is stifling this otherwise excellent project.
+
+
+Now on to your regularly scheduled program...
+
 * Website: [http://vagrantup.com](http://vagrantup.com)
 * Source: [http://github.com/mitchellh/vagrant](http://github.com/mitchellh/vagrant)
 * IRC: `#vagrant` on Freenode

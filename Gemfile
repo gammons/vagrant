@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "vagrant", :path => '.'
+#gem "vagrant", :path => '.'
 
 # Use the following gems straight from git, since Vagrant dev
 # typically coincides with it
